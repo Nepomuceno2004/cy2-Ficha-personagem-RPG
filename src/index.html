@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ficha de personagem</title>
+    <link rel="stylesheet" href="/dist/output.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
-<body>
-    <header>
-        <section>
-            <div>
-                <p>Nome personagem</p>
-                <input type="text">
+
+<body class = "text-3xl bg-[#454545] text-white pt-[50px]">
+    <header class= "flex justify-center">
+        <section class = "grid grid-cols-3 items-center justify-items-center w-full h-full">
+            <div class = "p-[10px]">
+                <p class = "text-center font-bold">Nome personagem</p>
+                <input type="text" class = " h-[30px] w-[300px] pl-[10px] rounded-[20px] bg-stone-300">
             </div>
-            <div>
-                <p>Nome jogador</p>
-                <input type="text">
+          <div class = "p-[10px]">
+               <p class = "text-center font-bold">Nome jogador</p>
+                <input type="text"  class = " h-[30px] w-[200px] pl-[10px] rounded-[20px] bg-stone-300">
             </div>
-            <div>
-                <p>Pontos de experiência</p>
-                <input type="text">
+            <div class = "p-[10px]">
+                <p class = "text-center font-bold">Pontos de experiência</p>
+                <input type="text" class = " h-[30px] w-[300px] pl-[10px] rounded-[20px] bg-stone-300">
             </div>
-            <div>
-                <p>Raça</p>
-                <input type="text">
+            <div class = "p-[10px]">
+                <p class = "text-center font-bold">Raça</p>
+                <input type="text" class = " h-[30px] w-[200px] pl-[10px] rounded-[20px] bg-stone-300">
             </div>
-            <div>
-                <p>Classe</p>
-                <input type="text">
+            <div class = "p-[10px]">
+                <p class = "text-center font-bold">Classe</p>
+                <input type="text" class = " h-[30px] w-[200px] pl-[10px] rounded-[20px] bg-stone-300">
             </div>
-            <div>
-                <p>Alinhamento</p>
-                <input type="text">
+            <div class = "p-[10px]">
+                <p class = "text-center font-bold">Alinhamento</p>
+                <input type="text" class = " h-[30px] w-[200px] pl-[10px] rounded-[20px] bg-stone-300">
             </div>
         </section>
     </header>
@@ -91,4 +96,5 @@
         </section>
     </main>
 </body>
+
 </html>
